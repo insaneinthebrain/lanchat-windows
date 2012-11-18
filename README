@@ -1,0 +1,13 @@
+NOTE: THERE ARE SOME VERY IMPORTANT CHANGES YOU MUST MAKE IN THE LANCHAT.PRO FILE
+THEY ARE COMMENTED IN THE FILE ITSELF, BUT IT WILL NOT COMPILE WITHOUT THOSE CHANGES.
+
+This is the windows version of my Lanchat linux program
+both can communicate with one another as long as the ports are the same.
+
+This program is a "learning c++" project for me.
+I am more than happy to share the source with anyone who may find it usefull for their own projects.
+
+This program utilizes winsock32 to send messages over a LAN.
+It uses multithreading to overcome waiting on the recv function before being able to send a message.
+
+This program was created with Qt Creator.
